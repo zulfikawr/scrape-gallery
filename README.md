@@ -1,5 +1,7 @@
 # Scrape Gallery
 
+![screenshot]()
+
 A sandbox environment for testing web scrapers, crawlers, and data extraction tools. The site provides various HTML structures, semantic patterns, and common scraping hurdles (pagination, infinite scroll simulation, messy DOM) in a static, safe-to-scrape environment.
 
 ## Features

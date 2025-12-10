@@ -132,11 +132,19 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({
           </div>
           <div className="flex gap-6 text-xs font-mono">
             <span className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full bg-green-500"></div> System
-              Normal
+              <div className="w-2 h-2 rounded-full bg-green-500"></div>
+              System Normal
             </span>
             <span>NO RATE LIMITS</span>
             <span>STATIC DATA</span>
+            <a
+              href="https://github.com/zulfikawr/scrape-gallery"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:opacity-70"
+            >
+              SOURCE CODE
+            </a>
           </div>
         </div>
       </footer>
