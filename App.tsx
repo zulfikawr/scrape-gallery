@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Layout } from "./components/Layout";
 import { Home } from "./pages/Home";
 import { Articles } from "./pages/Articles";
@@ -12,7 +12,7 @@ import { Messy } from "./pages/Messy";
 
 const App: React.FC = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -25,7 +25,7 @@ const App: React.FC = () => {
           <Route path="/messy" element={<Messy />} />
         </Routes>
       </Layout>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
